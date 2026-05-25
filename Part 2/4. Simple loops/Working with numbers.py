@@ -17,11 +17,10 @@ while True:
 
     number_count += 1
     total += number
-    mean = total / number_count
 
 print("... the program asks for numbers")
 print(f"Numbers typed in {number_count}")
 print(f"The sum of the numbers is {total}")
-print(f"The mean of the numbers is {mean}")
+print(f"The mean of the numbers is {total / number_count}")
 print(f"Positive numbers {positive_number_count}")
 print(f"Negative numbers {negative_number_count}")
