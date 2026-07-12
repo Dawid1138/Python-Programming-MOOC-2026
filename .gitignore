@@ -1,0 +1,10 @@
+# Ignore all internal TMC data folders
+**/tmc/
+
+# Ignore TMC local configuration files
+**/.tmcproject.json
+**/course_config.toml
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc

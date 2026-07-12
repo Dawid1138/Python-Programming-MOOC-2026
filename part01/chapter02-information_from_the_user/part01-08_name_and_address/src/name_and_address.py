@@ -1,0 +1,7 @@
+name = input("What is your name? ")
+family_name = input("What is your family name? ")
+street_address = input("What is your street address? ")
+city_and_postal_code = input("What is your city and postal code? ")
+print(name + " " + family_name)
+print(street_address)
+print(city_and_postal_code)
